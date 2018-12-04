@@ -5,7 +5,6 @@ logs
 src/test
 .settings
 /bin
-report
 .fatjar
 *.jar
 IDAPython/.idea
