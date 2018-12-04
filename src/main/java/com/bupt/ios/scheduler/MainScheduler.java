@@ -1,6 +1,6 @@
 package com.bupt.ios.scheduler;
 
-//import com.bupt.ios.report.WritePdf;
+import com.bupt.ios.report.WritePdf;
 import com.bupt.ios.report.WriteXml;
 import com.lowagie.text.DocumentException;
 
@@ -25,8 +25,8 @@ public class MainScheduler {
 		//处理ipa文件
 		new AnalyseScheduler().schdular();
 		
-		new WriteXml().write();
-//		WritePdf.write();
+//		new WriteXml().write();
+		WritePdf.write();
 		
 	}
 
