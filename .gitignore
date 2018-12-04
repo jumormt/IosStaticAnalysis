@@ -1,0 +1,11 @@
+/build
+.gradle/
+detemp/
+logs
+src/test
+.settings
+/bin
+report
+.fatjar
+*.jar
+IDAPython/.idea
