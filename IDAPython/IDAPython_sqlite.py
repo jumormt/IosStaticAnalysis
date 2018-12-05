@@ -98,7 +98,7 @@ class StaticAnalyzer:
         self.to_be_analyzed = set()
 
     def parse_rules(self):
-        rule_dir = '/Users/gjy/Documents/git_workspace/ios_detect_py/lib/rule'
+        rule_dir = '/Users/chengxiao/Desktop/ios逆向/IosStaticAnalysis/rule'
         to_be_analyzed = set()
         for f in os.listdir(rule_dir):
             try:
