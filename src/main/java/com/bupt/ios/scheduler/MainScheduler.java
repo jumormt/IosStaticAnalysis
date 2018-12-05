@@ -18,15 +18,15 @@ public class MainScheduler {
 		//args: ipa path
 		ProjectParameters.setIpaPath(args[0]);
 		ProjectParameters.setReportPath(args[1]);
-		
+
 		//预处理 pre
 		new PreScheduler().schdular();
-		
+
 		//处理ipa文件
 		new AnalyseScheduler().schdular();
-		
-//		new WriteXml().write();
-		WritePdf.write();
+
+		new WriteXml().write();
+//		WritePdf.write();
 		
 	}
 

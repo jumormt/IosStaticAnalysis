@@ -18,10 +18,11 @@ public class MainSchedulerTest {
 
 	@Test
 	public void test() throws DocumentException {
-		String[] args = {"C:\\Users\\huge\\Desktop\\static\\temp\\com.example.BlockSample","D:\\workList\\ios_test"};
+		String[] args = {"/Users/chengxiao/Desktop/ios逆向/样本/BuyOne","report"};
 //		String[] args = {"D:\\workList\\ios_test\\DVIA-2.1\\com.yjb.dvia","D:\\workList\\ios_test"};
 		MainScheduler.main(args);
 		
 	}
+
 
 }
